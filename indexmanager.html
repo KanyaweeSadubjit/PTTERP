@@ -1,0 +1,67 @@
+<html>
+<head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="css/style1.css">
+
+  </head>
+  <BODY background="images/1.jpg" bgproperties="fixed"></BODY>
+  <center><h1><img src="images/2.png" border="0" width="200"></h1></center>
+  <body>
+  <div class='box'>
+    <div class='box-form'>
+      <div class='box-login-tab'></div>
+      <div class='box-login-title'>
+        <div class='i i-login'></div>
+        <h2>LOGIN </h2>
+      </div>
+  
+      <div class='box-login'>
+        <div class='fieldset-body' id='login_form'>
+    <link rel="stylesheet" type="text/css" href="style.css">   
+</head>
+    <body>
+            <script language="javascript">
+                   
+                    /*This Script allows people to enter by using a form that asks for a
+                    UserID and Password*/
+                    function pasuser(form) {
+                    if (form.username.value=="manager") { 
+                    if (form.password.value=="inc") {              
+                    location="managerchoose.html" 
+                    } else {
+                    alert("Invalid Password")
+                    }
+                    } else {  alert("Invalid UserID")
+                    }
+                    }
+                    
+                    </script>
+
+
+    <div class="login-box">
+            <form>
+                    <div class='box-login'>
+                            <div class='fieldset-body' id='login_form'>
+                              <button onclick="openLoginInfo();" class='b b-form i i-more' title='Mais Informações'></button>
+                              <p class='field'>
+                                    <label for='user'> Username</label>
+                                    
+                                    <span id='valida' class='i i-warning'></span></p>
+                                    <p class='field'>
+            <input type="text" name="username" placeholder="Enter Username">
+            &nbsp; <label for='pass'>Password</label>
+            <span id='valida' class='i i-warning'></span></p>
+            <p class='field'>
+            <input type="password" name="password" placeholder="Enter Password">
+            <label class='checkbox'>
+                    <input type='checkbox' value='TRUE' title='Keep me Signed in' ype='submit' id='do_login' value='GET STARTED' /> Keep me Signed in
+                  </label>
+            <input  type="button" id="do_login" value="GET STARTED"onClick="pasuser(this.form)"/></a>
+        </div>
+      </div>
+    </div>
+            
+    
+    </body>
+</html>
